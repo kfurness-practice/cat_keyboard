@@ -1,0 +1,38 @@
+body {
+  background-image: url('./images/background.png');
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont-1 {
+  margin-top: 20vh;
+}
+
+.cat img {
+  width: 10vw;
+}
+
+.cat {
+  font-size: 5vw;
+  padding: 10px;
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  transition:all .35s;
+}
+
+.meow {
+  font-size: 8vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 8px solid dimgray;
+  border-radius: 1vw;
+  background-image: url('./images/gray-back.png');
+  transform:scale(1.1);
+}
